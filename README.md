@@ -7,6 +7,7 @@
 - Open the service and go to Azure Open AI studio
 - Go to deployments -> Create new deployment -> Select a model and give it a name and create
 - Go to AML studio -> prompt flow -> connections -> create new connection -> select the above deployment and add as connection
+- Need to be aware of daily token limit and request limits on openAI models
 
 ### Compute Session
 - Create a compute instance on AML studio (or)
