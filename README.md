@@ -36,3 +36,14 @@
 - Had to make the vector store open to anonymous read access
     - Go to prompt flow -> vector store -> open the vector store -> open in azure portal (bottom right) -> click index.pkl -> change access level
     - Or Might have to do this as well https://techcommunity.microsoft.com/t5/image/serverpage/image-id/475832i99F53630DB0B1A4B/image-dimensions/1000?v=v2&px=-1
+
+## Example of QnA using own data and Faiss index
+- ![image](https://github.com/user-attachments/assets/d2f4061d-98b4-4791-b941-36ef493e9601)
+- ![image](https://github.com/user-attachments/assets/1f7af650-0460-4eff-9401-5084150047e0)
+- Question
+    - ![image](https://github.com/user-attachments/assets/ec077fe4-a89c-49eb-8b71-c5d4383f3767)
+- Retrieval part
+    - ![image](https://github.com/user-attachments/assets/ee9b961d-a9b0-4e2d-afba-9f795d69f6c2)
+- Generation part
+    - ![image](https://github.com/user-attachments/assets/39563081-a4af-46f7-ba82-5ebaa778155d)
+- In the above the entire flow wasn't executed because 
